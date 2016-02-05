@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/menu_item_checkbox"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+    <RadioGroup
+        android:layout_centerVertical="true"
+        android:id="@+id/menu_item_options_container"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/hot_option"
+            android:text="hot 40฿"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/iced_option"
+            android:text="iced 45฿"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
